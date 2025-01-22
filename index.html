@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Changer</title>
+</head>
+<body>
+
+    <!-- Haupt Knopf -->
+    <div class="buttonWrapper">
+        <button onclick="changeColor()">
+            <span class="shadow"></span>
+            <span class="edge"></span>
+            <span class="front text"> New Color </span>
+        </button>
+    </div>
+
+    <!-- Farbe -->
+    <div class="colorWrapper">
+        <p id="color">#efefef</p>
+    </div>
+
+    <script src="colorChanger.js"></script>
+</body>
+</html>
