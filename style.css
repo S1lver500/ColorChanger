@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
+    font-family: 'Poppins', serif;
     padding: 0;
     margin: 0;
 }
@@ -12,51 +13,5 @@ body {
     justify-content: center;
     align-items: center;
     background: #efefef;
-}
-
-.circle {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    animation: expand 2s ease-in-out forwards;
-    z-index: -1;
-}
-
-@keyframes expand {
-    0% {
-        transform: translate(-50%, -50%) scale(0);
-    }
-    100% {
-        transform: translate(-50%, -50%) scale(50);
-    }
-}
-
-.buttonWrapper, .colorWrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-}
-
-.buttonWrapper {
-    background: #ffffff15;
-    width: 250px;
-    height: 150px;
-}
-
-.colorWrapper {
-    background: #ffffff4b;
-    width: auto;
-    height: auto;
-    padding: 10px;
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-}
-
-.colorWrapper p {
-    font-family: 'Poppins', serif;
-    font-size: 18px;
+    user-select: none;
 }

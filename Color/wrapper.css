@@ -1,0 +1,28 @@
+.colorWrapper {
+    background: #ffffff4b;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    border-radius: 0px 8px 0px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.colorWrapper:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.colorWrapper:active {
+    transform: scale(1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
+}
+
+.colorWrapper p {
+    font-size: 18px;
+}

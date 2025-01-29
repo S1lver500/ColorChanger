@@ -27,6 +27,6 @@ function changeColor() {
     }
 
     // Farbe anschreiben
-    const color = document.getElementById('color');
+    var color = document.getElementById('color');
     color.textContent = randomColor;
 }
